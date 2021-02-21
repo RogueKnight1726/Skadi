@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013A75FD25E2C01600632004 /* SkadiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A75FC25E2C01600632004 /* SkadiApp.swift */; };
+		013A75FF25E2C01600632004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A75FE25E2C01600632004 /* ContentView.swift */; };
+		013A760125E2C01900632004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A760025E2C01900632004 /* Assets.xcassets */; };
+		013A760425E2C01900632004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A760325E2C01900632004 /* Preview Assets.xcassets */; };
+		013A760F25E2C01900632004 /* SkadiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A760E25E2C01900632004 /* SkadiTests.swift */; };
+		013A761A25E2C01900632004 /* SkadiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A761925E2C01900632004 /* SkadiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013A760B25E2C01900632004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013A75F125E2C01600632004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013A75F825E2C01600632004;
+			remoteInfo = Skadi;
+		};
+		013A761625E2C01900632004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013A75F125E2C01600632004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013A75F825E2C01600632004;
+			remoteInfo = Skadi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013A75F925E2C01600632004 /* Skadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013A75FC25E2C01600632004 /* SkadiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadiApp.swift; sourceTree = "<group>"; };
+		013A75FE25E2C01600632004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		013A760025E2C01900632004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013A760325E2C01900632004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		013A760525E2C01900632004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013A760A25E2C01900632004 /* SkadiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkadiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013A760E25E2C01900632004 /* SkadiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadiTests.swift; sourceTree = "<group>"; };
+		013A761025E2C01900632004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013A761525E2C01900632004 /* SkadiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkadiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013A761925E2C01900632004 /* SkadiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadiUITests.swift; sourceTree = "<group>"; };
+		013A761B25E2C01900632004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013A75F625E2C01600632004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A760725E2C01900632004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A761225E2C01900632004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013A75F025E2C01600632004 = {
+			isa = PBXGroup;
+			children = (
+				013A75FB25E2C01600632004 /* Skadi */,
+				013A760D25E2C01900632004 /* SkadiTests */,
+				013A761825E2C01900632004 /* SkadiUITests */,
+				013A75FA25E2C01600632004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013A75FA25E2C01600632004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013A75F925E2C01600632004 /* Skadi.app */,
+				013A760A25E2C01900632004 /* SkadiTests.xctest */,
+				013A761525E2C01900632004 /* SkadiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013A75FB25E2C01600632004 /* Skadi */ = {
+			isa = PBXGroup;
+			children = (
+				013A75FC25E2C01600632004 /* SkadiApp.swift */,
+				013A75FE25E2C01600632004 /* ContentView.swift */,
+				013A760025E2C01900632004 /* Assets.xcassets */,
+				013A760525E2C01900632004 /* Info.plist */,
+				013A760225E2C01900632004 /* Preview Content */,
+			);
+			path = Skadi;
+			sourceTree = "<group>";
+		};
+		013A760225E2C01900632004 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				013A760325E2C01900632004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		013A760D25E2C01900632004 /* SkadiTests */ = {
+			isa = PBXGroup;
+			children = (
+				013A760E25E2C01900632004 /* SkadiTests.swift */,
+				013A761025E2C01900632004 /* Info.plist */,
+			);
+			path = SkadiTests;
+			sourceTree = "<group>";
+		};
+		013A761825E2C01900632004 /* SkadiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				013A761925E2C01900632004 /* SkadiUITests.swift */,
+				013A761B25E2C01900632004 /* Info.plist */,
+			);
+			path = SkadiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013A75F825E2C01600632004 /* Skadi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013A761E25E2C01900632004 /* Build configuration list for PBXNativeTarget "Skadi" */;
+			buildPhases = (
+				013A75F525E2C01600632004 /* Sources */,
+				013A75F625E2C01600632004 /* Frameworks */,
+				013A75F725E2C01600632004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skadi;
+			productName = Skadi;
+			productReference = 013A75F925E2C01600632004 /* Skadi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013A760925E2C01900632004 /* SkadiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013A762125E2C01900632004 /* Build configuration list for PBXNativeTarget "SkadiTests" */;
+			buildPhases = (
+				013A760625E2C01900632004 /* Sources */,
+				013A760725E2C01900632004 /* Frameworks */,
+				013A760825E2C01900632004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013A760C25E2C01900632004 /* PBXTargetDependency */,
+			);
+			name = SkadiTests;
+			productName = SkadiTests;
+			productReference = 013A760A25E2C01900632004 /* SkadiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		013A761425E2C01900632004 /* SkadiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013A762425E2C01900632004 /* Build configuration list for PBXNativeTarget "SkadiUITests" */;
+			buildPhases = (
+				013A761125E2C01900632004 /* Sources */,
+				013A761225E2C01900632004 /* Frameworks */,
+				013A761325E2C01900632004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013A761725E2C01900632004 /* PBXTargetDependency */,
+			);
+			name = SkadiUITests;
+			productName = SkadiUITests;
+			productReference = 013A761525E2C01900632004 /* SkadiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013A75F125E2C01600632004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					013A75F825E2C01600632004 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					013A760925E2C01900632004 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 013A75F825E2C01600632004;
+					};
+					013A761425E2C01900632004 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 013A75F825E2C01600632004;
+					};
+				};
+			};
+			buildConfigurationList = 013A75F425E2C01600632004 /* Build configuration list for PBXProject "Skadi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013A75F025E2C01600632004;
+			productRefGroup = 013A75FA25E2C01600632004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013A75F825E2C01600632004 /* Skadi */,
+				013A760925E2C01900632004 /* SkadiTests */,
+				013A761425E2C01900632004 /* SkadiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013A75F725E2C01600632004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A760425E2C01900632004 /* Preview Assets.xcassets in Resources */,
+				013A760125E2C01900632004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A760825E2C01900632004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A761325E2C01900632004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013A75F525E2C01600632004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A75FF25E2C01600632004 /* ContentView.swift in Sources */,
+				013A75FD25E2C01600632004 /* SkadiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A760625E2C01900632004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A760F25E2C01900632004 /* SkadiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013A761125E2C01900632004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013A761A25E2C01900632004 /* SkadiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013A760C25E2C01900632004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013A75F825E2C01600632004 /* Skadi */;
+			targetProxy = 013A760B25E2C01900632004 /* PBXContainerItemProxy */;
+		};
+		013A761725E2C01900632004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013A75F825E2C01600632004 /* Skadi */;
+			targetProxy = 013A761625E2C01900632004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		013A761C25E2C01900632004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		013A761D25E2C01900632004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013A761F25E2C01900632004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skadi/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.Skadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013A762025E2C01900632004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skadi/Preview Content\"";
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skadi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.Skadi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		013A762225E2C01900632004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				INFOPLIST_FILE = SkadiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.SkadiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skadi.app/Skadi";
+			};
+			name = Debug;
+		};
+		013A762325E2C01900632004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				INFOPLIST_FILE = SkadiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.SkadiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skadi.app/Skadi";
+			};
+			name = Release;
+		};
+		013A762525E2C01900632004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				INFOPLIST_FILE = SkadiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.SkadiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skadi;
+			};
+			name = Debug;
+		};
+		013A762625E2C01900632004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q7NG7S89JF;
+				INFOPLIST_FILE = SkadiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rogueknight1726.skadi.SkadiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skadi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013A75F425E2C01600632004 /* Build configuration list for PBXProject "Skadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A761C25E2C01900632004 /* Debug */,
+				013A761D25E2C01900632004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013A761E25E2C01900632004 /* Build configuration list for PBXNativeTarget "Skadi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A761F25E2C01900632004 /* Debug */,
+				013A762025E2C01900632004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013A762125E2C01900632004 /* Build configuration list for PBXNativeTarget "SkadiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A762225E2C01900632004 /* Debug */,
+				013A762325E2C01900632004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013A762425E2C01900632004 /* Build configuration list for PBXNativeTarget "SkadiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013A762525E2C01900632004 /* Debug */,
+				013A762625E2C01900632004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013A75F125E2C01600632004 /* Project object */;
+}
