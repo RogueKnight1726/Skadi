@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  HomeModuleView.swift
 //  Skadi
 //
 //  Created by Swathy Sudarsanan on 21/02/21.
@@ -7,7 +7,10 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeModuleView: View {
+    
+    weak var presenter: HomeModuleViewToPresenterProtocol?
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -33,8 +36,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeModuleView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeModuleView()
     }
 }
