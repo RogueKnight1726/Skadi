@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeModuleView: View {
+struct HomeModuleView: View, MyProtocol {
     
     weak var presenter: HomeModuleViewToPresenterProtocol?
     

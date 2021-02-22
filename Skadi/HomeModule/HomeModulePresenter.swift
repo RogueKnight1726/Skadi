@@ -14,3 +14,7 @@ class HomeModulePresenter: HomeModuleInteractorToPresenterProtocol {
     var router: HomeModulePresenterToRouterProtocol?
     
 }
+
+extension HomeModulePresenter: HomeModuleViewToPresenterProtocol {
+    
+}
