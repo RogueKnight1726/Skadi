@@ -11,7 +11,7 @@ import SwiftUI
 struct SkadiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            createHomeModule() as! HomeModuleView
         }
     }
 }

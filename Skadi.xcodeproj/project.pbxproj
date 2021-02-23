@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0109EEFB25E58E460010A158 /* DiscoverModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EEFA25E58E460010A158 /* DiscoverModuleContract.swift */; };
+		0109EF0025E58E580010A158 /* DiscoverModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EEFF25E58E580010A158 /* DiscoverModuleBuilder.swift */; };
+		0109EF0525E58E6C0010A158 /* DiscoverModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF0425E58E6C0010A158 /* DiscoverModuleInteractor.swift */; };
+		0109EF0A25E58E7B0010A158 /* DiscoverModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF0925E58E7B0010A158 /* DiscoverModulePresenter.swift */; };
+		0109EF0F25E58E850010A158 /* DiscoverModuleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF0E25E58E850010A158 /* DiscoverModuleEntity.swift */; };
+		0109EF1425E58E910010A158 /* DiscoverModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF1325E58E910010A158 /* DiscoverModuleRouter.swift */; };
+		0109EF1925E58E9D0010A158 /* DiscoverModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF1825E58E9D0010A158 /* DiscoverModuleView.swift */; };
+		0109EF2525E5906C0010A158 /* ParentModuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF2425E5906C0010A158 /* ParentModuleView.swift */; };
+		0109EF2D25E5907C0010A158 /* ParentModuleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF2C25E5907C0010A158 /* ParentModuleInteractor.swift */; };
+		0109EF3225E590840010A158 /* ParentModulePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF3125E590840010A158 /* ParentModulePresenter.swift */; };
+		0109EF3725E590870010A158 /* ParentModuleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF3625E590870010A158 /* ParentModuleEntity.swift */; };
+		0109EF3F25E5909A0010A158 /* ParentModuleRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF3E25E5909A0010A158 /* ParentModuleRouter.swift */; };
+		0109EF4425E590AF0010A158 /* ParentModuleContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF4325E590AF0010A158 /* ParentModuleContract.swift */; };
+		0109EF4925E590C20010A158 /* ParentModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0109EF4825E590C20010A158 /* ParentModuleBuilder.swift */; };
 		013A75FD25E2C01600632004 /* SkadiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A75FC25E2C01600632004 /* SkadiApp.swift */; };
 		013A75FF25E2C01600632004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013A75FE25E2C01600632004 /* ContentView.swift */; };
 		013A760125E2C01900632004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013A760025E2C01900632004 /* Assets.xcassets */; };
@@ -40,6 +54,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0109EEFA25E58E460010A158 /* DiscoverModuleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleContract.swift; sourceTree = "<group>"; };
+		0109EEFF25E58E580010A158 /* DiscoverModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleBuilder.swift; sourceTree = "<group>"; };
+		0109EF0425E58E6C0010A158 /* DiscoverModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleInteractor.swift; sourceTree = "<group>"; };
+		0109EF0925E58E7B0010A158 /* DiscoverModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModulePresenter.swift; sourceTree = "<group>"; };
+		0109EF0E25E58E850010A158 /* DiscoverModuleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleEntity.swift; sourceTree = "<group>"; };
+		0109EF1325E58E910010A158 /* DiscoverModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleRouter.swift; sourceTree = "<group>"; };
+		0109EF1825E58E9D0010A158 /* DiscoverModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModuleView.swift; sourceTree = "<group>"; };
+		0109EF2425E5906C0010A158 /* ParentModuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleView.swift; sourceTree = "<group>"; };
+		0109EF2C25E5907C0010A158 /* ParentModuleInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleInteractor.swift; sourceTree = "<group>"; };
+		0109EF3125E590840010A158 /* ParentModulePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModulePresenter.swift; sourceTree = "<group>"; };
+		0109EF3625E590870010A158 /* ParentModuleEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleEntity.swift; sourceTree = "<group>"; };
+		0109EF3E25E5909A0010A158 /* ParentModuleRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleRouter.swift; sourceTree = "<group>"; };
+		0109EF4325E590AF0010A158 /* ParentModuleContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleContract.swift; sourceTree = "<group>"; };
+		0109EF4825E590C20010A158 /* ParentModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModuleBuilder.swift; sourceTree = "<group>"; };
 		013A75F925E2C01600632004 /* Skadi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skadi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		013A75FC25E2C01600632004 /* SkadiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadiApp.swift; sourceTree = "<group>"; };
 		013A75FE25E2C01600632004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +114,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0109EEF925E58E160010A158 /* DiscoverModule */ = {
+			isa = PBXGroup;
+			children = (
+				0109EEFF25E58E580010A158 /* DiscoverModuleBuilder.swift */,
+				0109EEFA25E58E460010A158 /* DiscoverModuleContract.swift */,
+				0109EF0425E58E6C0010A158 /* DiscoverModuleInteractor.swift */,
+				0109EF0925E58E7B0010A158 /* DiscoverModulePresenter.swift */,
+				0109EF0E25E58E850010A158 /* DiscoverModuleEntity.swift */,
+				0109EF1325E58E910010A158 /* DiscoverModuleRouter.swift */,
+				0109EF1825E58E9D0010A158 /* DiscoverModuleView.swift */,
+			);
+			path = DiscoverModule;
+			sourceTree = "<group>";
+		};
+		0109EF2325E590550010A158 /* ParentModule */ = {
+			isa = PBXGroup;
+			children = (
+				0109EF4325E590AF0010A158 /* ParentModuleContract.swift */,
+				0109EF4825E590C20010A158 /* ParentModuleBuilder.swift */,
+				0109EF2425E5906C0010A158 /* ParentModuleView.swift */,
+				0109EF2C25E5907C0010A158 /* ParentModuleInteractor.swift */,
+				0109EF3125E590840010A158 /* ParentModulePresenter.swift */,
+				0109EF3625E590870010A158 /* ParentModuleEntity.swift */,
+				0109EF3E25E5909A0010A158 /* ParentModuleRouter.swift */,
+			);
+			path = ParentModule;
+			sourceTree = "<group>";
+		};
 		013A75F025E2C01600632004 = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +166,9 @@
 			isa = PBXGroup;
 			children = (
 				013A75FC25E2C01600632004 /* SkadiApp.swift */,
+				0109EF2325E590550010A158 /* ParentModule */,
 				013A762A25E2C83B00632004 /* HomeModule */,
+				0109EEF925E58E160010A158 /* DiscoverModule */,
 				013A75FE25E2C01600632004 /* ContentView.swift */,
 				013A760025E2C01900632004 /* Assets.xcassets */,
 				013A760525E2C01900632004 /* Info.plist */,
@@ -289,13 +347,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				013A763625E2C86400632004 /* HomeModuleInteractor.swift in Sources */,
+				0109EF1425E58E910010A158 /* DiscoverModuleRouter.swift in Sources */,
 				013A765025E2CB4400632004 /* HomeModuleView.swift in Sources */,
+				0109EF4425E590AF0010A158 /* ParentModuleContract.swift in Sources */,
+				0109EF1925E58E9D0010A158 /* DiscoverModuleView.swift in Sources */,
 				013A764525E2C88300632004 /* HomeModuleRouter.swift in Sources */,
+				0109EF3725E590870010A158 /* ParentModuleEntity.swift in Sources */,
 				013A763125E2C85900632004 /* HomeModuleContract.swift in Sources */,
 				013A762C25E2C84F00632004 /* HomeModuleBuilder.swift in Sources */,
 				013A763B25E2C86D00632004 /* HomeModulePresenter.swift in Sources */,
 				013A75FF25E2C01600632004 /* ContentView.swift in Sources */,
 				013A764025E2C87B00632004 /* HomeModuleEntity.swift in Sources */,
+				0109EF3225E590840010A158 /* ParentModulePresenter.swift in Sources */,
+				0109EF4925E590C20010A158 /* ParentModuleBuilder.swift in Sources */,
+				0109EF2D25E5907C0010A158 /* ParentModuleInteractor.swift in Sources */,
+				0109EEFB25E58E460010A158 /* DiscoverModuleContract.swift in Sources */,
+				0109EF0F25E58E850010A158 /* DiscoverModuleEntity.swift in Sources */,
+				0109EF0525E58E6C0010A158 /* DiscoverModuleInteractor.swift in Sources */,
+				0109EF3F25E5909A0010A158 /* ParentModuleRouter.swift in Sources */,
+				0109EF2525E5906C0010A158 /* ParentModuleView.swift in Sources */,
+				0109EF0025E58E580010A158 /* DiscoverModuleBuilder.swift in Sources */,
+				0109EF0A25E58E7B0010A158 /* DiscoverModulePresenter.swift in Sources */,
 				013A75FD25E2C01600632004 /* SkadiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
