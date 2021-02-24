@@ -13,7 +13,9 @@ func createDiscoverModule() -> MyProtocol {
     let presenter = DiscoverModulePresenter()
     let router = DiscoverModuleRouter()
     let view = DiscoverModuleView()
-    
+    presenter.interactor = interactor
+    interactor.presenter = presenter
+    presenter.router = router
     
     
     return view

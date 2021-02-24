@@ -9,4 +9,8 @@ import Foundation
 
 class DiscoverModulePresenter: DiscoverModuleInteractorToPresenterProtocol {
     
+    
+    var interactor: DiscoverModuleInteractor?
+    var router: DiscoverModuleRouter?
+    
 }

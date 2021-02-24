@@ -8,6 +8,6 @@
 import Foundation
 
 
-class ParentModuleRouter: ParentModulePresneterToRouterProtocol {
+class ParentModuleRouter: ParentModulePresenterToRouterProtocol {
     
 }

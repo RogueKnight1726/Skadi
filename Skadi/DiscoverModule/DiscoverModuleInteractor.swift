@@ -10,4 +10,7 @@ import Foundation
 
 class DiscoverModuleInteractor: DiscoverModulePresenterToInteractorProtocol {
     
+    
+    var presenter: DiscoverModulePresenter?
+    
 }

@@ -12,8 +12,11 @@ func createParentModule() -> MyProtocol {
     
     let interactor = ParentModuleInteractor()
     let presenter = ParentModulePresenter()
-    let view = ParentModuleView()
+    let view = ParentModuleView(presenter: presenter)
     let router = ParentModuleRouter()
+    presenter.interactor = interactor
+    interactor.presenter = presenter
+    presenter.router = router
     
     return view
 }

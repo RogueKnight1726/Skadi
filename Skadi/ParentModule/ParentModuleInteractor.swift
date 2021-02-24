@@ -10,4 +10,8 @@ import Foundation
 
 class ParentModuleInteractor: ParentModulePresenterToInteractorProtocol {
     
+    
+    var presenter: ParentModuleInteractorToPresenterProtocol?
 }
+
+

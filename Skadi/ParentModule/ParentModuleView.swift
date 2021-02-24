@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct ParentModuleView: View, MyProtocol {
+    
+    var presenter: ParentModulePresenter?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            (presenter?.getHomeModule() as! HomeModuleView)
+                .tabItem {
+                    Label("Menu", systemImage: "list.dash")
+                }
+            (presenter?.getDiscoverModule() as! DiscoverModuleView)
+                .tabItem {
+                    Label("Menu", systemImage: "list.dash")
+                }
+            
+        }
     }
 }
 

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DiscoverModuleView: View, MyProtocol {
+    
+    var presenter: DiscoverModulePresenter?
+    
     var body: some View {
         Text("Discover Module")
     }

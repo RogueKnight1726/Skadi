@@ -19,8 +19,12 @@ protocol ParentModulePresenterToInteractorProtocol: class {
 
 protocol ParentModuleViewToPresenterProtocol: class {
     
+    associatedtype ViewType
+    
+    func getHomeModule() -> ViewType
+    func getDiscoverModule() -> ViewType
 }
 
-protocol ParentModulePresneterToRouterProtocol: class {
+protocol ParentModulePresenterToRouterProtocol: class {
     
 }
